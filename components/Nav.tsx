@@ -34,9 +34,9 @@ export const Nav = () => {
     >
       <div className={'flex items-center gap-2'}>
         {isDarkMode ? (
-          <img src="/Logo-black.png" alt="dark-image" className={"w-20"} />
-        ) : (
           <img src="/Logo-white.png" alt="white-image" className={"w-20"} />
+        ) : (
+          <img src="/Logo-black.png" alt="dark-image" className={"w-20"} />
         )}
         <span style={{ fontFamily: 'InterTight', fontSize: 20}}>Proof of Me</span>
         {/* <HumeLogo className={"h-5 w-auto"} /> */}
@@ -53,10 +53,7 @@ export const Nav = () => {
           variant={"ghost"}
           className={"ml-auto flex items-center gap-1.5"}
         >
-          <span>
-            <Github className={"size-4"} />
-          </span>
-          <span>Star on GitHub</span>
+          <span>Proof of Me</span>
         </Button>
         <Button
           onClick={toggleDark}
