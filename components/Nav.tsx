@@ -33,7 +33,8 @@ export const Nav = () => {
       }
     >
       <div>
-        <HumeLogo className={"h-5 w-auto"} />
+        <span style={{fontFamily: 'InterTight'}}>Proof of Me</span>
+        {/* <HumeLogo className={"h-5 w-auto"} /> */}
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
         <Button
@@ -47,10 +48,7 @@ export const Nav = () => {
           variant={"ghost"}
           className={"ml-auto flex items-center gap-1.5"}
         >
-          <span>
-            <Github className={"size-4"} />
-          </span>
-          <span>Star on GitHub</span>
+          <span>proofofme.fun</span>
         </Button>
         <Button
           onClick={toggleDark}
