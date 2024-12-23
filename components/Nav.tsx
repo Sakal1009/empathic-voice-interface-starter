@@ -32,7 +32,7 @@ export const Nav = () => {
         "px-4 py-2 flex items-center h-14 z-50 bg-card border-b border-border"
       }
     >
-      <div className='flex items-center gap-2'>
+      <div className={'flex items-center gap-2'}>
         {isDarkMode ? (
           <img src="/Logo-black.png" alt="dark-image" className="w-20" />
         ) : (
