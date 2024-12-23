@@ -32,13 +32,13 @@ export const Nav = () => {
         "px-4 py-2 flex items-center h-14 z-50 bg-card border-b border-border"
       }
     >
-      <div className="flex items-center gap-2">
+      <div className='flex items-center gap-2'>
         {isDarkMode ? (
-          <img src="/Logo-black.png" alt="dark-image" className="w-20"/>
+          <img src="/Logo-black.png" alt="dark-image" className="w-20" />
         ) : (
-          <img src="/Logo-white.png" alt="white-image" className="w-20"/>
+          <img src="/Logo-white.png" alt="white-image" className="w-20" />
         )}
-        <span style={{fontFamily: 'InterTight', fontSize: }}>Proof of Me</span>
+        <span style={{ fontFamily: 'InterTight', fontSize: }}>Proof of Me</span>
         {/* <HumeLogo className={"h-5 w-auto"} /> */}
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
@@ -53,7 +53,10 @@ export const Nav = () => {
           variant={"ghost"}
           className={"ml-auto flex items-center gap-1.5"}
         >
-          <span>proofofme.fun</span>
+          <span>
+            <Github className={"size-4"} />
+          </span>
+          <span>Star on GitHub</span>
         </Button>
         <Button
           onClick={toggleDark}
