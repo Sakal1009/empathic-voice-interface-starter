@@ -34,9 +34,9 @@ export const Nav = () => {
     >
       <div className={'flex items-center gap-2'}>
         {isDarkMode ? (
-          <img src="/Logo-black.png" alt="dark-image" className="w-20" />
+          <img src="/Logo-black.png" alt="dark-image" className={"w-20"} />
         ) : (
-          <img src="/Logo-white.png" alt="white-image" className="w-20" />
+          <img src="/Logo-white.png" alt="white-image" className={"w-20"} />
         )}
         <span style={{ fontFamily: 'InterTight', fontSize: }}>Proof of Me</span>
         {/* <HumeLogo className={"h-5 w-auto"} /> */}
