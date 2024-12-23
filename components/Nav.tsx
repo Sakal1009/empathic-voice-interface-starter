@@ -38,7 +38,7 @@ export const Nav = () => {
         ) : (
           <img src="/Logo-white.png" alt="white-image" className={"w-20"} />
         )}
-        <span style={{ fontFamily: 'InterTight', fontSize: }}>Proof of Me</span>
+        <span style={{ fontFamily: 'InterTight', fontSize: 20}}>Proof of Me</span>
         {/* <HumeLogo className={"h-5 w-auto"} /> */}
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
