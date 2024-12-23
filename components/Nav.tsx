@@ -53,7 +53,7 @@ export const Nav = () => {
           variant={"ghost"}
           className={"ml-auto flex items-center gap-1.5"}
         >
-          <span>Proof of Me</span>
+          <span>Back to Web</span>
         </Button>
         <Button
           onClick={toggleDark}
