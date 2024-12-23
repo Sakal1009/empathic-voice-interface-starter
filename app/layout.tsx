@@ -7,7 +7,7 @@ import { cn } from "@/utils";
 
 export const metadata: Metadata = {
   title: "Proof of Me",
-  description: "A Next.js starter using Hume AI's Empathic Voice Interface",
+  description: "A Next.js starter using Elevenlabs AI voices powered by the PoM unified API"
 };
 
 export default function RootLayout({
